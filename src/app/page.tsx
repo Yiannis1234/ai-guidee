@@ -89,7 +89,6 @@ const SITE_ACCESS_CODE = "vamvak"; // Updated access code for main site
 const EMAIL_ACCESS_CODE = "EMAIL1"; // Change for each paid email enquiry
 
 export default function Home() {
-  const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [testimonialIdx, setTestimonialIdx] = useState(0);
   const [hasAccess, setHasAccess] = useState(false);
   const [accessInput, setAccessInput] = useState("");
@@ -192,7 +191,7 @@ export default function Home() {
               <ul className="list-disc pl-6 text-lg text-blue-900 space-y-2">
                 <li>Stay connected with family and friends using AI-powered messaging</li>
                 <li>Write emails, letters, or even memoirs with ease</li>
-                <li>Learn new things or explore hobbies with AI's help</li>
+                <li>Learn new things or explore hobbies with AI&apos;s help</li>
                 <li>Get answers to questions, like a friendly assistant</li>
                 <li>Translate languages for travel or communication</li>
               </ul>
@@ -201,9 +200,9 @@ export default function Home() {
             <div>
               <h3 className="text-xl font-bold text-blue-700 mb-2 flex items-center gap-2"><span role="img" aria-label="parent">👩‍👧‍👦</span> For Busy Parents</h3>
               <ul className="list-disc pl-6 text-lg text-blue-900 space-y-2">
-                <li>Organize your family's schedule and set reminders</li>
+                <li>Organize your family&apos;s schedule and set reminders</li>
                 <li>Plan meals and get recipe ideas quickly</li>
-                <li>Write and respond to kids' school emails</li>
+                <li>Write and respond to kids&apos; school emails</li>
                 <li>Get homework help or fun learning activities for kids</li>
                 <li>Save time on daily tasks with AI suggestions</li>
               </ul>
@@ -214,7 +213,7 @@ export default function Home() {
         {/* ChatGPT Models Explained */}
         <section id="chatgpt" className="bg-blue-100 rounded-xl shadow p-8 flex flex-col gap-4">
           <h2 className="text-2xl font-bold text-blue-900 mb-2 flex items-center gap-2"><span role="img" aria-label="robot">🤖</span>ChatGPT Models Explained</h2>
-          <p className="text-blue-900 text-lg">There are several versions of ChatGPT, each with its own strengths. Here's a simple guide to help you choose:</p>
+          <p className="text-blue-900 text-lg">There are several versions of ChatGPT, each with its own strengths. Here&apos;s a simple guide to help you choose:</p>
           <div className="grid gap-4 sm:grid-cols-2">
             <div className="bg-white rounded-lg p-4 shadow hover:scale-105 transition-transform duration-200 flex gap-3 items-start">
               <span className="text-3xl">💬</span>
@@ -248,7 +247,7 @@ export default function Home() {
               <span className="text-3xl">🖼️</span>
               <div>
                 <h3 className="font-bold text-blue-700">Other AI Models</h3>
-                <p className="text-blue-900">There are also image generators (like DALL-E), voice assistants, and more. We can help you choose what's best for you!</p>
+                <p className="text-blue-900">There are also image generators (like DALL-E), voice assistants, and more. We can help you choose what&apos;s best for you!</p>
               </div>
             </div>
           </div>
@@ -345,7 +344,7 @@ export default function Home() {
                 </button>
               </form>
               <p className="text-sm text-green-700 mt-4 text-center">
-                You have 3 email enquiries remaining. We'll respond within 48 hours.
+                You have 3 email enquiries remaining. We&apos;ll respond within 48 hours.
               </p>
             </div>
           )}
